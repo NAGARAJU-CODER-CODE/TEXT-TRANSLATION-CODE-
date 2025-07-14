@@ -1,3 +1,8 @@
+
+#Sure! Here's a simple example of a Python project that automatically translates text from one language to another using the googletrans library, which is a popular wrapper for Google Translate API.
+
+#pip install googletrans==4.0.0-rc1
+
 from googletrans import Translator
 
 def translate_text(text, src_language, dest_language):
